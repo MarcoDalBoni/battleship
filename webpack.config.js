@@ -5,11 +5,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
    entry: './src/DOMmanipulation.js',
    mode: 'development',
    output: {
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-     path: path.resolve(__dirname, 'dist'),
    },
    devServer: {
-    static: "./dist"
+    static: "./dist",
+    devMiddleware: {
+      writeToDisk: true,
+    }
    },
    module: {
     rules: [
