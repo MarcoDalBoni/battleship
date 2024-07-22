@@ -16,6 +16,13 @@ body {
     font-size: 18px;
 }
 
+.input-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
 #inputName {
     border: 2px solid lightblue;
     font-size: 18px;
