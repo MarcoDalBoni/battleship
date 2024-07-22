@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script defer src="bundle.js"></script></head>
+    <body>
+        <div id="sidebar">
+            <div>
+                <input type="text" placeholder="PlayerName" id="inputName">
+                <button id="submitName">Submit</button>
+            </div>
+            <div class="ship-placer">
+                <select id="selectShip"><option>--|--</option></select>
+                <div class="toggle-vertical">
+                    <div class="custom-checkbox" id="toggleVertical"></div>
+                    <label for="toggleVertical">Vertical</label>
+                </div>
+            </div>
+            <div>
+                <button id="startGame">Start game</button>
+                <button id="resetButton">Reset</button>
+            </div>
+            <div>
+                <p id="message"></p>
+            </div>
+        </div>
+        <div id="boards">
+            <div id="playerBoard" class="container"></div>
+            <div id="computerBoard" class="container"></div>
+        </div>
+    </body>
+</html>
