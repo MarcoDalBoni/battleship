@@ -44,7 +44,7 @@ body {
 #resetButton {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    margin: -5px;
+    margin: 0px;
 }
 
 #submitName:hover,
