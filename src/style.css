@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     height: 95vh;
 }
 
@@ -13,7 +13,7 @@ body {
     justify-content: center;
     gap: 20px;
     height: 95vh;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .input-name {
@@ -25,7 +25,7 @@ body {
 
 #inputName {
     border: 2px solid lightblue;
-    font-size: 18px;
+    font-size: 16px;
     height: 25px;
 }
 
@@ -34,7 +34,7 @@ body {
 #startGame {
     border: none;
     background-color: lightblue;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     height: 30px;
     cursor: pointer;
