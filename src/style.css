@@ -16,7 +16,7 @@ body {
     font-size: 16px;
 }
 
-.input-name {
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
